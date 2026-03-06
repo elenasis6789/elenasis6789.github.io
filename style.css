@@ -1,0 +1,225 @@
+
+body{
+    /* padding: 0;
+    margin: 0; */
+    /*background-color: blueviolet;*/
+    background-image: url(/background/flower.jpg);
+    
+}
+html {
+    scrollbar-color: #efb0c9 #830a3a;
+}
+* {
+    cursor: url(/multi-stars.png),auto;
+    box-sizing: border-box;
+}
+h1{
+    color:#830a3a;
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+}
+h2,h3{
+    color:#830a3a;
+    text-shadow: 0px 0px 1px black;
+    /*padding-right: 15px;*/
+    text-align: center;
+    font-size: medium;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px; 
+    margin:auto;
+    text-align: center;
+}
+#left{
+    position: absolute;
+    margin-left: 150px;
+    height: 870px;
+    width: 200px;
+    padding: 5px;
+    background-color: #f096ba;
+}
+#middle{
+    position: absolute;
+    margin-left: 350px;
+    height: 870px;
+    width: 500px;
+    padding: 15px;
+    background-color: #f9c2ef;
+}
+#right{
+    position: absolute;
+    margin-left: 850px;
+    height: 870px;
+    width: 200px;
+    padding: 5px;
+    background-color: #cce3fb;
+}
+#buttons{
+    width: 150px;
+    height:20px;
+    display:flex;
+    flex-direction: row;
+}
+#pixelpet{
+    width: 100px;
+    height:100px;
+}
+
+.container{
+    display: flex;
+}
+table, th, td {
+  border: 0px solid;
+}
+h2:hover {
+    color:#a39c9e;
+}
+
+.socials{
+    padding-left: 5px;
+    padding-top: 15px;
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+    text-align: left;
+}
+img{
+    height: auto;
+    width: auto;
+}
+.recentimg{
+    height: 130px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 3px solid #830a3a;
+    margin-right: 10px;
+}
+/*displays images of projects*/
+.imgbox{
+    width: 150px;
+    height: 150px;
+    background-color: #c26389;
+    border: 3px solid #830a3a;
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 10px;
+}
+.row {
+    display: flex;
+    
+}
+
+/*update and idea box*/
+.box2{
+    width: 190px;
+    height: 190px;
+    border: 1px solid #830a3a;
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+/*chatbox*/
+.chatbox{
+    width: 190px;
+    height: 200px;
+    background-color: #fff;
+    border: 3px solid #830a3a;
+    border-radius: 5px;
+    text-align: left;
+}
+/*.snake{
+    color: green;
+}
+.gamebox {
+    width: 200px;
+    height: 195px;
+    background-color: #fff;
+    border: 3px solid #830a3a;
+    border-radius: 5px;
+}
+#board{
+    height: 130px;
+    width: 130px;
+}*/
+.randomimg{
+    height: 190px;
+    width: 190px;
+    border-radius: 2px;
+}
+/* for the footer size*/
+.box{
+    border-radius: 10px;
+    overflow: auto;
+}
+/*footer*/
+footer.box{
+    height: fit-content;
+    width: auto;
+    position: relative;
+    background-color: hotpink;
+    text-align: center;
+    margin-top: 70%;
+}
+/*#profile-img {
+    width:auto;
+    border-radius: 0%;
+    border: 6px solid #EFB0C9;
+}*/
+/* Chat containers */
+.chatcontainer {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.chatcontainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.chatcontainer img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.chatcontainer img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
