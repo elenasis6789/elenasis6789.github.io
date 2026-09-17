@@ -12,6 +12,8 @@ html {
 * {
     cursor: url(/multi-stars.png),auto;
     box-sizing: border-box;
+    scrollbar-width: auto;
+    scrollbar-color: #cc99ff #666699;
 }
 h1{
     color:#830a3a;
@@ -222,4 +224,22 @@ footer.box{
 .time-left {
   float: left;
   color: #999;
+}
+.sidebox ul {
+    margin: .5em  1em 16px .7em;
+    padding: 0 0px;
+    max-width: 90%;
+    line-height: 1.5em;
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    line-height: 2em;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
 }
